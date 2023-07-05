@@ -1,0 +1,648 @@
+<!-- 5thOJTDIV 2
+assignment 1 profile demo
+assignment 1 profile demo
+naresh kumar
+•
+10:13
+
+SCROLLPLY_PROFILE.zip
+Compressed Archive
+
+IndexDemo.htm
+HTML
+
+PortfolioDemo.html
+HTML
+
+PortfolioDemo.html
+HTML
+Class comments
+
+Add class comment… -->
+
+<html>
+    <head>
+        <title>My Profile | Naresh kumar</title>
+        
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+           
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+          
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
+    
+           <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+           <script src="JS/wow.min.js" type="text/javascript"></script>
+           <link href="CSS/animate.css" rel="stylesheet" type="text/css" />
+           
+		   <script type="text/javascript">
+                new WOW().init();
+           </script>
+            <style type="text/css" >
+               
+                #HeaderDiv a.navbar-brand
+	            {
+	                font-family:Monotype Corsiva;
+	                font-size:25px;    
+	                color:#ffffff;
+	            }
+	            #navbarCollapse li b
+	            {
+	                color:#ffffff;
+	            }
+	            
+                .fullscreen_bg 
+                {
+                    position:relative;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    overflow:hidden;
+                    z-index:-1;
+                }
+
+                .fullscreen_bg_video 
+                {
+                    position:absolute;
+                    width: auto;
+                    height: auto;
+                    min-width: 100%;
+	                min-height: 100%;
+	            }
+                #Home
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:#fff;
+	                font-weight:bold
+	            }
+	            
+	            #HomeRow
+	            {
+	                padding-top:7%;   
+	            }
+	            #HomeRow a i.fa
+	            {
+	                color:#ffffff;
+	            }
+	            
+	            #HomeRow div.col-lg-offset-3
+	            {
+	                background:rgba(41, 242, 61, 0.961); 
+	                padding-top:20px;
+	                padding-bottom:20px;
+	                border-radius:16px;
+	                box-shadow:2px 2px 15px hsl(76, 98%, 50%); 
+                    border: 5px solid rgb(224, 243, 16);
+                     
+                }
+
+                #TechnicalSummary
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:hsl(66, 89%, 49%);
+	                background-attachment:fixed;
+	                background-image:url('Images/About_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                line-height:1.5;
+	            }
+	            #TechnicalSummaryRow
+	            {
+	                padding-top:7%;
+	            }
+	            #TechnicalSummary h1
+	            {
+	                font-family:Monotype Corsiva;
+	            }
+                #Qualifications
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:hsl(90, 69%, 51%);
+	            }
+	            #QualificationsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #QualificationsRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:#fb0e0ecc;
+	                border-radius:16px;
+	                box-shadow:0px 0px 18px blue;
+	                
+	            }
+	            #Qualifications table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Qualifications table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Qualifications table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+                #Skills
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:30px;
+	                padding-bottom:40px;
+	                color:hsl(68, 92%, 51%);
+	            }
+	            #SkillsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #SkillsRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:hsl(0, 89%, 51%);
+	                border-radius:16px;
+	                box-shadow:5px 5px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Skills table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Skills table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Skills table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+                #Noncollegiate
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:30px;
+	                padding-bottom:40px;
+	                color:#bfcf0c;
+	            }
+	            #NoncollegiateRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #NoncollegiateRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:#da0d0d;
+	                border-radius:16px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Noncollegiate table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Noncollegiate table tr td
+	            {
+	                padding-bottom:30px;
+	            }
+	            #Noncollegiate table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	            
+	            #Experience
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Qualifications_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:30px;
+	                padding-bottom:40px;
+	                color:#b1c819;
+	            }
+	            #ExperienceRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #ExperienceRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:hwb(0 5% 5%);
+	                border-radius:16px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Experience table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Experience table tr td
+	            {
+	                padding-bottom:30px;
+	            }
+	            #Experience table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+	        
+
+                #Portfolio
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:hsl(0, 51%, 75%);
+	                font-size:30px;
+	                
+	            }
+	           
+	            #PortfolioRow h1
+	            {
+	                color:hsl(165, 73%, 49%);
+	                font-family:Monotype Corsiva;
+	            }  
+	            
+	            #Portfolio div.col-lg-3
+	            {
+	                margin-bottom:30px;
+	            }  
+	            .ContainerImage
+	            {
+                    position: relative;
+                    width:100%;
+                }
+                .image 
+                {
+                  display: block;
+                  width: 100%;
+                  height: 200px;
+				  transition:1s;
+                }
+
+                .overlay 
+                {
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  top: 0;
+                  right:0;
+                  background:#4215d4b3;
+                  overflow: hidden;
+                  height: 100%;
+                  width:100%;
+                  opacity:0;
+                  transition:0.5s;
+                }
+                .ContainerImage:hover .overlay 
+                {
+                  opacity:1;
+                }
+				.ContainerImage:hover .image 
+                {
+                  transform:rotate(360deg);
+                }
+                .text 
+                {
+                  color: white;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  text-align: center;
+                }
+                #FreelancingRole
+	            {
+	                height:auto;
+	                color:#fff;
+	                background-attachment:fixed;
+	                background-image:url('Images/FreelancingRole_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                
+	            }
+	            #FreelancingRoleRow
+	            {
+	                background:#09cdebcc;
+	                padding-top:10%;
+	                padding-bottom:10%;
+	            }
+	            #FreelancingRoleRow div.col-lg-3
+	            {
+	                text-align:center;
+	            }
+	            #FreelancingRoleRow div.col-lg-3 i.fa
+	            {
+	                color:Orange;
+	            }
+	            #FreelancingRole h1
+	            {
+	                font-family:Monotype Corsiva;
+	            }
+                
+	            @media(max-width:768px)
+	            {
+	                .fullscreen_bg_video 
+                    {
+                        left:-160%;
+                        width:260%;
+                    }
+                    #TechnicalSummary
+                    {
+                        height:auto;    
+                    }
+                }
+                @media(max-width:992px)
+                {
+                    #HomeRow
+	                {
+	                 padding-top:17%;    
+	                }    
+	                #TechnicalSummaryRow
+	                {
+	                 padding-top:17%;    
+	                }
+                }    
+                	           
+	        </style>
+
+            <body style="background-image: url('data:image/jpeg;base64,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');">
+                <div >
+                    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top" style="z-index:1000; background-color: #141415;" >
+                         <!-- Brand and toggle get grouped for better mobile display -->
+                         <div class="navbar-header" id="HeaderDiv">
+                              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                              </button>
+                              <a href="#" class="navbar-brand">Naresh kumar</a>
+                         </div>
+                         <div id="navbarCollapse" class="collapse navbar-collapse">
+                              <ul class="nav navbar-nav navbar-right" style="font-size:13px;padding-right:15px;">
+                                  <li><a href="#Home"><b>Intro</b></a></li>
+                                  <li><a href="#TechnicalSummary"><b>Technical Summary</b></a></li>
+                                  <li><a href="#Qualifications"><b>Qualifications</b></a></li>
+                                  <li><a href="#Skills"><b>Skills</b></a></li>
+                                  <li><a href="#Noncollegiate"><b>Noncollegiate</b></a></li>
+                                  <li><a href="#Experience"><b>Experience</b></a></li>
+                                  <li><a href="#Portfolio"><b>Portfolio</b></a></li>
+                                  <li><a href="#FreelancingRole"><b>Freelancing Role</b></a></li>
+                              </ul>
+                        </div>
+                   </nav>
+                </div>	
+
+                <div id="Home" class="fullscreen_bg">
+                    <video src="../ScrollPly/Video/V1.mp4" autoplay loop muted class="fullscreen_bg_video"></video>
+                    <div class="row" id="HomeRow">
+                         <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
+                              <center><img src="https://drive.google.com/uc?id=1zyjYyl7FVn1_ihkD2YHufmyby5hjtEdi" alt="Naresh kumar" style="height:300px;width:300px ; box-shadow:5px 5px 25px white;"  /></center>
+                               
+                              <center><h2>Naresh kumar</h2></center>
+                              <center><h5>silver oak student</h5><hr /></center>
+                              <div class="row">
+                                  <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5">
+                                       <center><i class="fa fa-2x fa-phone"></i> +91- 9737714107</center>
+                                  </div>
+                                  <div class="col-lg-5 col-md-6 col-sm-6">
+                                       <center><i class="fa fa-2x fa-envelope"></i> <a href="mailto:nareshamaratbhai491@gmail.com" style="color:#ffffff;">nareshamaratbhai491@gmai.com</a></center>
+                                  </div>
+                              </div><hr />
+                              <div class="row">
+                                  <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                                       <center><i class="fa fa-2x fa-map-marker"></i> 346 rachana eatst g.d.road krishnanagar ahemadabad,382345</center>
+                                  </div>
+                              </div><hr />
+                              <center><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-twitter-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-instagram"></i></a></center>
+                         </div>
+                    </div>             
+               </div>
+               <div id="TechnicalSummary" class="container-fluid wow bounceIn" data-wow-duration="3s">
+                <div class="row" id="TechnicalSummaryRow">
+                     <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                          <h1 class="text-center"><i class="fa fa-gears"></i> Technical Summary</h1><hr />
+                          <ul>
+                              <li>Computer Engineering under Graduate in silver oak uni...</li>
+                              <li>core strength in web de/app de</li>
+                              
+                          </ul>
+                     </div>
+                </div>
+           </div>
+           
+         <div id="Qualifications" class="container-fluid">
+            <div class="row" id="QualificationsRow">
+                 <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+                      <br /><h2 class="text-center"><i class="fa fa-object-group"></i> Education Qualification</h2><hr />
+                      <table class="table table-responsive" style="font-size: xx-large;">   
+                          <tr> 
+                            <td>Year<br />2018-2019</td>
+                             <td>std=10<br /> from royal school of science dhanera <br /> royal school of science <br /> pr=75%</td>
+                          </tr>  
+                          <tr>
+                              <td>Year<br />2020-2021</td>
+                              <td>std=12<br /> from ahemadabad  <br /> axar school of science <br /> pr=74%</td>
+                          </tr>
+                          <tr>
+                              <td>Year<br />2022-23</td>
+                              <td>under Graduate in sou <br />from ahemadabad<br />third Year <br /> in B.tech Computer Engineering</td>
+                          </tr>
+                         
+                      </table>
+                 </div>
+            </div>
+       </div>
+
+       <div id="Skills" class="container-fluid " >
+        <div class="row" id="SkillsRow">
+             <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                  <center><br /><h2><i class="fa fa-object-group"></i> Technical Skills</h2><hr /></center>
+                  <table style="font-size: xx-large;" >
+                      <tr>
+                          <td>Programming Languages:</td>
+                          <td>Java, Python, HTML5, CSS3.</td>
+                      </tr>
+                      <tr>
+                        <td>Tools:</td>
+                        <td>Annaconda, vs code,</td>
+                    </tr>
+        
+                      <tr>
+                          <td>Databases:</td>
+                          <td> Oracle SQL Server, Microsoft Access.</td>
+                      </tr>
+                    
+                      <tr>
+                          <td>Operating Systems:</td>
+                          <td>Microsoft Windows.</td>
+                      </tr>
+                      <tr>
+                          <td>Others:</td>
+                          <td>web dev../app dev..</td>
+                      </tr>
+                  </table>
+             </div>
+        </div>
+   </div>
+   <div id="Noncollegiate" class="container-fluid">
+    <div class="row" id="NoncollegiateRow">
+         <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+              <center><br /><h2><i class="fa fa-object-group"></i> Non Collegiate Activities</h2><hr /></center>
+              <table  style="font-size: xx-large;" >
+                  <tr>
+                      <td>Year 2019</td>
+                      <td>volleyball team for geeting first rank in district.</td>
+                  </tr>
+                  <tr>
+                      <td>year 2020</td>
+                      <td><br /> science fair in dhanera for geeting first rank in distric</td>
+                  </tr>
+              </table>
+         </div>
+    </div>
+</div>
+<!-- 
+<div id="Experience" class="container-fluid">
+    <div class="row" id="ExperienceRow">
+         <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+              <center><br /><h2><i class="fa fa-object-group"></i> Field Experience</h2><hr /></center>
+              <table>
+                  <tr>
+                      <td>Year 2017 to Till Date</td>
+                      <td>Java and Python.</td>
+                  </tr>
+              </table>
+         </div>
+    </div>
+</div> -->
+
+
+   <div id="Portfolio" class="container-fluid wow bounceIn" data-wow-duration="3s">
+    <div class="row" id="PortfolioRow">
+         <center><br /><h1><i class="fa fa-object-group"></i> My Portfolio</h1><hr /></center>
+         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 1</div> -->
+                       <a class="text" href="layout2.html">project 1</a>
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 2</div> -->
+                       <a class="text" href="layout.3.html">project 2</a>
+
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 3</div> -->
+                       <a class="text" href="rajisterform.html">project 3</a>
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 4</div> -->
+                       <a class="text" href="para.1.html">project 4</a>
+
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 5</div> -->
+                       <a class="text" href="tooltip.html">project 5</a>
+
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 6</div> -->
+                       <a class="text" href="day5.p2 copy.html">project 6</a>
+
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 7</div> -->
+                       <a class="text" href="bootstrap3.html">project 7</a>
+
+                  </div>
+              </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <div class="ContainerImage">
+                  <img src="Images/Skills_Image.jpg" alt="Naresh kumar" class="image" />
+                  <div class="overlay">
+                       <!-- <div class="text">Project 8</div> -->
+                       <a class="text" href="bootstrap2.html">project 8</a>
+
+                  </div>
+              </div>
+         </div>  
+    </div>
+</div>
+<div id="FreelancingRole" class="container-fluid wow bounceInUp" data-wow-duration="3s">
+    <div class="row" id="FreelancingRoleRow">
+         <center><br /><h1><i class="fa fa-object-group"></i> My Freelancing Role</h1><hr /></center>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-users"></i><br />Clients<br />50
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-thumbs-up"></i><br />Projects<br />120
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-smile-o"></i><br />Experineces<br />145
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-list"></i><br />Line of Code<br />50260
+         </div>
+    </div>
+</div>
+</body>
+</html>
+PortfolioDemo.html
+Displaying PortfolioDemo.html.
